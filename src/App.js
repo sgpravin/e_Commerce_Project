@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+// import FrontPage from "./components/frontpage/frontpage";
+import Login from "./components/loginPage/login";
+import PrdList from "./components/product/prdListing/prdList";
+import { useState } from "react";
 
 function App() {
+  const [show, setShow] = useState(false);
+
+  const handleUpdateChild = (newVal) => {
+    if (newVal === "pass") {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!show && <Login onValChange={handleUpdateChild} />}
+      {show && (
+        <>
+          <Header onValChange={handleUpdateChild} />
+          {/* <FrontPage /> */}
+          <PrdList />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }

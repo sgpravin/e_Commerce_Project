@@ -1,0 +1,79 @@
+.FrontPage {
+  margin: 20px;
+}
+
+.Banner1 {
+  position: relative;
+  background-color: #94612e;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.IphoneBanner {
+  position: relative;
+  left: 55%;
+  width: 40%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.Banner1Content {
+  position: absolute;
+  bottom: 40%;
+  width: 30%;
+  left: 10%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Banner2 {
+  position: relative;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.ShirtBanner {
+  position: relative;
+  left: 2%;
+  width: 40%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.Banner2Content {
+  position: absolute;
+  bottom: 40%;
+  width: 30%;
+  right: 10%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ProductDemo {
+  background-color: cadetblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+ul {
+  display: inline-flex;
+  margin-right: 30px;
+}
+li {
+  list-style: none;
+  padding: 15px;
+}
+
+li > img {
+  width: 250px;
+  height: 250px;
+}
+
+.PrdName {
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+}

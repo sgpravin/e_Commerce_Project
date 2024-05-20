@@ -1,0 +1,12 @@
+.Footer {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 20px;
+}

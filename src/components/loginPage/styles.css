@@ -1,0 +1,40 @@
+.LoginPage {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+.left {
+  float: left;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.LoginBtn, .newAccBtn {
+    background-color: darkcyan;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+p {
+    color: red;
+}

@@ -1,0 +1,35 @@
+.Header {
+  position: sticky;
+  display: flex;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+.CompanyName,
+.Login {
+  width: 50%;
+}
+.Name {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: cursive;
+  padding: 10px;
+}
+
+.userIcon {
+  width: 30px;
+  padding-left: 80%;
+  vertical-align: middle;
+}
+
+.LogoutButton {
+  background: none;
+  border: none;
+  padding-left: 20px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+ img {
+  border-radius: 20px;
+ }
